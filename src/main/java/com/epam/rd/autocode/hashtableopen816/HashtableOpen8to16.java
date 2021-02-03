@@ -8,7 +8,7 @@ public interface HashtableOpen8to16 {
     int[] keys();
 
     static HashtableOpen8to16 getInstance(){
-        throw new UnsupportedOperationException();
+        return new SimpleHashTable();
     }
 }
 
